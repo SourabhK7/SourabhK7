@@ -1,5 +1,7 @@
 ### Hi there 👋, I'm Sourabh!
-
+- I love solving problems and taking on new challenges.
+- I'm a Data Enthusiast, currently working in Product <> Growth Data Science.
+- I'm exploring interesting problems where data could be the answer. 
 <!--
 **SourabhK7/SourabhK7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
