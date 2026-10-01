@@ -21,8 +21,11 @@ Earlier work: [causal inference](https://github.com/SourabhK7/Causal-Inference),
 #### What I work with
 
 **Analytics and data:** SQL, Python, Databricks, Amplitude, Avo
+
 **Methods:** A/B testing (including sequential testing), causal inference, propensity score matching, forecasting, churn and retention modeling
+
 **ML:** logistic regression, XGBoost, LightGBM, random forests, clustering, recommender systems
+
 **LLMs:** Anthropic API, structured outputs, tool use, LLM-as-judge evaluation, eval design
 
 ---
