@@ -1,6 +1,6 @@
 ### Hi, I'm Sourabh
 
-I'm a product data scientist with 8 years in data, working at the intersection of experimentation, personalization, and applied machine learning. I turn behavioral data into decisions PMs and product teams can act on, and I care most about the ones that hold up when the model is retrained or the traffic mix shifts.
+I'm a data scientist with 8 years in data, working at the intersection of experimentation, personalization, and applied machine learning. I turn behavioral data into decisions PMs and product teams can act on, and I care most about the ones that hold up when the model is retrained or the traffic mix shifts.
 
 On the side I build with LLMs, and I like testing whether the things people say about them actually hold up. Twice now they've done better than I expected.
 
