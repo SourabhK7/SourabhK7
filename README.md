@@ -1,8 +1,8 @@
 ### Hi, I'm Sourabh
 
-I'm a product data scientist in the Bay Area. Most of my work is A/B testing, activation and retention analysis, and building small tools that make that work faster.
+I'm a product data scientist with 8 years in data, working at the intersection of experimentation, personalization, and applied machine learning. I turn behavioral data into decisions PMs and product teams can act on, and I care most about the ones that hold up when the model is retrained or the traffic mix shifts.
 
-Lately my side projects are about LLMs, mostly testing whether the things people say about them actually hold up. Twice now they've done better than I expected.
+On the side I build with LLMs, and I like testing whether the things people say about them actually hold up. Twice now they've done better than I expected.
 
 #### Projects
 
