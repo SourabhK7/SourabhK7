@@ -1,22 +1,18 @@
 ### Hi, I'm Sourabh
 
-I'm a product data scientist working on experimentation, growth, and LLMs applied to real analytics work. Most of my day is A/B testing, activation and retention analysis, and building tools that make that work faster and more rigorous.
+I'm a product data scientist in the Bay Area. Most of my work is A/B testing, activation and retention analysis, and building small tools that make that work faster.
 
-A thread runs through my side projects: I test the common claims about LLMs with experiments instead of taking them on faith. So far the models keep doing better than the folklore says, and I write up what I find either way.
-
----
+Lately my side projects are about LLMs, mostly testing whether the things people say about them actually hold up. Twice now they've done better than I expected.
 
 #### Projects
 
-**[llm-data-guardrails](https://github.com/SourabhK7/llm-data-guardrails)**: an eval for LLMs that answer questions about data. 15 statistical traps (Simpson's paradox, mix shift, peeking, regression to the mean, tracking breaks, and more), each paired with a matched control so blanket skepticism scores as badly as blanket agreement. Claude Sonnet and Opus caught all 90 trap cases when asked to review a claim, and named the real issue in all 90 when only asked to write the conclusion up for leadership. They also found bugs in my benchmark that my 15-check rule-based baseline missed.
+[llm-data-guardrails](https://github.com/SourabhK7/llm-data-guardrails). I built 15 stats traps for LLMs (Simpson's paradox, mix shifts, peeking at A/B tests, regression to the mean, and so on), each with a matched control where the claim is actually true. I expected the models to fall for a lot of them. Claude Sonnet and Opus caught all 90 trap cases when asked to review a claim, and still named the real problem when I only asked them to write the wrong conclusion up for leadership. They also found bugs in my benchmark that my own rule-based checker missed.
 
-**[activation-insight-agent](https://github.com/SourabhK7/activation-insight-agent)**: a Python agent that turns funnel, retention, A/B test and anomaly data into written diagnoses. pandas computes every number and the LLM writes the narrative. An LLM-as-judge eval of that design found a frontier model handled the arithmetic perfectly either way, so the real case for the split is determinism and debuggability, not accuracy.
+[activation-insight-agent](https://github.com/SourabhK7/activation-insight-agent). A Python agent that takes funnel, retention, A/B test or anomaly data and writes up what's going on. pandas does all the math and the LLM only writes. I assumed the LLM would get the arithmetic wrong if I let it do the math, so I tested that with an LLM-as-judge eval. It didn't. The split is still worth it, but for debuggability, not accuracy.
 
-**[llm-ds-workflow](https://github.com/SourabhK7/llm-ds-workflow)**: 15 prompt patterns I use for product DS work, including warehouse SQL drafting, A/B readouts, null-result framing, anomaly decomposition, LLM-as-judge rubric design, and exec Q&A prep. Each one documents its failure modes, and the templates can be rendered from Python.
+[llm-ds-workflow](https://github.com/SourabhK7/llm-ds-workflow). The prompts I actually use for DS work: SQL drafting, A/B readouts, writing up null results, anomaly breakdowns, eval rubrics, prepping for exec questions. Each one notes where it tends to go wrong.
 
-Earlier work: [causal inference](https://github.com/SourabhK7/Causal-Inference), [customer segmentation](https://github.com/SourabhK7/clustering-olist), [transaction prediction](https://github.com/SourabhK7/Santander-Customer-Transaction-Prediction).
-
----
+Older stuff: [causal inference](https://github.com/SourabhK7/Causal-Inference), [customer segmentation](https://github.com/SourabhK7/clustering-olist), [transaction prediction](https://github.com/SourabhK7/Santander-Customer-Transaction-Prediction).
 
 #### What I work with
 
@@ -26,8 +22,6 @@ Earlier work: [causal inference](https://github.com/SourabhK7/Causal-Inference),
 
 **ML:** logistic regression, XGBoost, LightGBM, random forests, clustering, recommender systems
 
-**LLMs:** Anthropic API, structured outputs, tool use, LLM-as-judge evaluation, eval design
-
----
+**LLMs:** Anthropic API, structured outputs, tool use, LLM-as-judge evals
 
 [LinkedIn](https://www.linkedin.com/in/sourabhkoul/)
